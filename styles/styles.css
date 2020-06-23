@@ -1,0 +1,167 @@
+body
+{
+    background-image:url(../assets/pic/sbgc1.png);
+    background-size: cover;
+    margin: 0px;
+}
+
+#container
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.main
+{
+    height:55px;
+    color: #fff;
+    font-family:'Lobster', cursive;
+    display: flex;
+    font-size: 30px;
+    align-items: center;
+    margin: 0 auto auto auto;
+}
+
+
+.logo img
+{
+    width:40px;
+    height:40px;
+}
+.name
+{
+    margin-right: 20px;
+}
+
+.readabout
+{
+    padding-left: 5px;
+    padding-right: 10px;
+    padding-top:9px;
+    padding-bottom:9px;
+}
+.ofert
+{
+    padding-left: 5px;
+    padding-right: 10px;
+    padding-top:9px;
+    padding-bottom:9px;
+}
+.contactus
+{
+    padding-left: 5px;
+    padding-right: 10px;
+    padding-top:9px;
+    padding-bottom:9px;
+}
+
+.contactus:hover
+{
+    background-color:#116cc6;
+    color: #d5d7da;
+}
+.ofert:hover
+{
+    background-color:#116cc6;
+    color: #d5d7da;
+}
+.readabout:hover
+{
+    background-color:#116cc6;
+    color: #d5d7da;
+}
+
+.ogl
+{
+    background-image:url(../assets/pic/gmbg.jpg);
+    background-attachment: fixed;
+    padding: 20px 50px 20px 50px;
+    font-family: sans-serif;
+    color: ivory;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.descript
+{
+
+    display: flex;
+    flex-wrap: wrap;
+    padding:40px 20px 20px 20px;
+    justify-content: space-between;
+    font-family: 'Antic', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+.ofertx
+{
+    border: 10px inset #1a2692;
+    background-color: #242425;
+    width: 25%;
+    color: #fff;
+    padding: 10px 20px 15px 20px;
+}
+
+.const
+{
+    border: 10px inset #2b3793;
+    background-color: #242425;
+    width: 25%;
+    color: #fff;
+    padding: 10px 20px 15px 20px;
+}
+
+.blah
+{
+    border: 10px inset #3c4894;
+    background-color: #242425;
+    width: 25%;
+    color: #fff;
+    padding: 10px 20px 15px 20px;
+}
+
+@media (max-width: 1050px) 
+{
+    .main
+    {
+        font-size: 25px;
+    }
+
+    .descript
+    {
+        display: flex;
+        flex-direction: column;        
+        padding:40px 20px 20px 150px;
+        justify-content: space-between;
+        font-size: 15px;
+    }
+
+    .ofertx
+{
+    border: 10px inset #1a2692;
+    background-color: #242425;
+    width: 70%;
+    color: #fff;
+    padding: 5px 20px 15px 20px;
+    margin-bottom: 20px;
+}
+
+.const
+{
+    border: 10px inset #2b3793;
+    background-color: #242425;
+    width: 70%;
+    color: #fff;
+    padding: 5px 20px 15px 20px;
+    margin-bottom:20px;
+}
+
+.blah
+{
+    border: 10px inset #3c4894;
+    background-color: #242425;
+    width: 70%;
+    color: #fff;
+    padding: 5px 20px 15px 20px;
+}
+}
