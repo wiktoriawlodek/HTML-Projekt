@@ -3,6 +3,7 @@ body
     background-image:url(../assets/pic/sbgc1.png);
     background-size: cover;
     margin: 0px;
+    color: #fff;
 }
 
 #container
@@ -120,48 +121,84 @@ body
     padding: 10px 20px 15px 20px;
 }
 
-@media (max-width: 1050px) 
-{
-    .main
-    {
+@media (max-width: 1050px) {
+    .main {
         font-size: 25px;
     }
 
-    .descript
-    {
+    .descript {
         display: flex;
-        flex-direction: column;        
-        padding:40px 20px 20px 150px;
+        flex-direction: column;
+        padding: 40px 20px 20px 150px;
         justify-content: space-between;
         font-size: 15px;
     }
 
-    .ofertx
+    .ofertx {
+        border: 10px inset #1a2692;
+        background-color: #242425;
+        width: 70%;
+        color: #fff;
+        padding: 5px 20px 15px 20px;
+        margin-bottom: 20px;
+    }
+
+    .const {
+        border: 10px inset #2b3793;
+        background-color: #242425;
+        width: 70%;
+        color: #fff;
+        padding: 5px 20px 15px 20px;
+        margin-bottom: 20px;
+    }
+
+    .blah 
+    {
+        border: 10px inset #3c4894;
+        background-color: #242425;
+        width: 70%;
+        color: #fff;
+        padding: 5px 20px 15px 20px;
+    }
+    .vidbcg video 
+    {
+        height: 240px !important;
+        width: 320px !important;
+        display: block;
+    }
+}
+/*Podstrona "Oferta"*/
+
+.vidbcg 
 {
-    border: 10px inset #1a2692;
-    background-color: #242425;
-    width: 70%;
-    color: #fff;
-    padding: 5px 20px 15px 20px;
-    margin-bottom: 20px;
+    background-image: url(../assets/pic/gmbg.jpg);
+    background-attachment: fixed;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    display: flex;
+    justify-content: center;
 }
 
-.const
+.vidbcg video 
 {
-    border: 10px inset #2b3793;
-    background-color: #242425;
-    width: 70%;
-    color: #fff;
-    padding: 5px 20px 15px 20px;
-    margin-bottom:20px;
+    height: 480px;
+    width: 640px;
+    display: block;
 }
 
-.blah
+
+a:link
 {
-    border: 10px inset #3c4894;
-    background-color: #242425;
-    width: 70%;
-    color: #fff;
-    padding: 5px 20px 15px 20px;
+    text-decoration: none;
+    color:#fff;
 }
+a:visited
+{
+    text-decoration:none;
+    color:#fff;
 }
+.active
+{
+   font-weight:900;
+}
+
