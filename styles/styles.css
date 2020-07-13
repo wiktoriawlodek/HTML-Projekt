@@ -14,7 +14,7 @@ body
 
 .main
 {
-    height:55px;
+    min-height:55px;
     color: #fff;
     font-family:'Lobster', cursive;
     display: flex;
@@ -24,36 +24,40 @@ body
 }
 
 
-.logo img
-{
-    width:40px;
-    height:40px;
+.logo img {
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
 }
-.name
-{
+.name {
     margin-right: 20px;
+    min-height: 40px;
+    font-size: 30px;
 }
 
-.readabout
-{
+.readabout {
     padding-left: 5px;
     padding-right: 10px;
-    padding-top:9px;
-    padding-bottom:9px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    min-height: 40px;
+    font-size: 30px;
 }
-.ofert
-{
+.ofert {
     padding-left: 5px;
     padding-right: 10px;
-    padding-top:9px;
-    padding-bottom:9px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    min-height: 40px;
+    font-size: 30px;
 }
-.contactus
-{
+.contactus {
     padding-left: 5px;
     padding-right: 10px;
-    padding-top:9px;
-    padding-bottom:9px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    min-height: 40px;
+    font-size: 30px;
 }
 
 .contactus:hover
@@ -202,3 +206,43 @@ a:visited
    font-weight:900;
 }
 
+.todo
+{
+    padding: 4%;
+}
+
+.add-todo {
+    min-width: 80%;
+}
+ 
+h4
+{
+    font-size: 25px;
+}
+
+.todo-input {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    min-width: 75%;
+    padding-left: 12px;
+    background-color: #1a2672;
+    min-height: 24px;
+    border-radius: 70px;
+    color: #111010;
+    border: none;
+}
+.todo-button 
+{
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: 800;
+    border-radius: 100px;
+    text-align: center;
+    border: none;
+}
+.todo-input:focus 
+{
+    background-color: #3c4894; 
+    border: none;
+    outline: none;
+    transition: background-color .8s ease;
+}
