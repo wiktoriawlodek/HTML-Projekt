@@ -11,8 +11,19 @@
     <link rel="stylesheet" href="../styles/styles.css" type="text/css" />
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <script type="text/javascript">
+        var number = Math.floor(Math.random() * 4) + 1;
+
+        function changeslide() {
+            number++; if (number > 4) number = 1;
+            var file = "<img src=\"../assets/sld/slajd" + number + ".png\"/>";
+
+            document.getElementById("presentation").innerHTML = file;
+            setTimeout("changeslide()", 6000);
+        }
+    </script>
 </head>
-<body>
+<body onload=" changeslide()">
     <div class="main">
         <div class="logo">
             <img src="../assets/pic/NotiSecurity.logo.png" />
@@ -46,6 +57,27 @@
                 Kontakt
             </a>
         </div>
+    </div>
+
+    <div id="presentation">TU BÊDZIE MAGIA MO¯E!</div>
+
+    <div id="cct">
+        <div class="contct"> 
+            <h3>Zadzwoñ ju¿ dziœ!</h3>
+                (12) 654 45 65 / Dla numerów zagranicznych (12) 23 234 234<br/> 
+                Infolinia czynna ca³¹ dobê.
+        </div>
+        <div class="contct"> 
+            <h3>PrzyjedŸ!</h3>
+                I przetestuj sprzêt, a nasz doradca dobierze odpowiedni sprzêt i wyjaœni sposób jego dzia³ania!<br/> 
+                Umów wizytê w wybranej placówce korzystaj¹c z Infolinii!
+        </div>
+        <div class="contct"> 
+            <h3>Napisz!</h3>
+                e-mail: contact@notisecurity.pl <br/>
+                Kontakt mailowy dostêpny w godzinach 8:00 - 19:00 od poniedzia³ku do pi¹tku.
+        </div>
+
     </div>
 </body>
 </html>
