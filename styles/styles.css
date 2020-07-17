@@ -310,3 +310,30 @@ h4
     color: #fff;
     padding: 10px 20px 15px 20px;
 }
+@media (max-width: 1050px) {
+    .main {
+        font-size: 25px;
+    }
+
+    #cct 
+    {
+        flex-direction: column;
+        margin: 450px auto 0px auto;
+        font-size: 15px;
+    }
+    .contct {
+        border: 10px inset #1a2692;
+        background-color: #242425;
+        width: 70%;
+        color: #fff;
+        padding: 5px 20px 15px 20px;
+        margin: 10px auto 10px auto;
+    }
+
+
+    #presentation {
+        position: absolute;
+        clip: rect(0px, auto, 400px, 0px);
+        margin-bottom: 20px;
+    }
+}
